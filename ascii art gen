@@ -1,0 +1,4 @@
+import pyfiglet
+T = input("ascii art gen   : ")
+ASCII_art_1 = pyfiglet.figlet_format(T)
+print(ASCII_art_1)
